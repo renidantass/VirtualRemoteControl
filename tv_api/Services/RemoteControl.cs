@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
@@ -11,6 +12,8 @@ namespace tv_api.Services
     class RemoteControl<T> : IDisposable where T : TV
     {
         private static ClientWebSocket _connection { get; set; }
+        public List<Command> Commands { get; set; }
+
         public RemoteControl(T api)
         {
             _connection = api.GetConnection();
