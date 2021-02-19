@@ -15,7 +15,7 @@ namespace tv_api.Entities
         private string Filename { get; set; }
         private dynamic _handshake_msg { get; set; }
 
-        public LG(string ip, int port) : base(ip, port)
+        public LG(string ip) : base(ip, 3000)
         {
             Filename = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "hello.json");
             ReadHandshake();

@@ -26,7 +26,7 @@ C:\Users\Reni Alkimim\source\repos\VirtualRemoteControl\tv_api\bin\Debug\net5.0\
 C:\Users\Reni Alkimim\source\repos\VirtualRemoteControl\tv_api\bin\Debug\net5.0\ref\tv_api.dll
 C:\Users\Reni Alkimim\source\repos\VirtualRemoteControl\tv_api\bin\Debug\net5.0\tv_api.pdb
 C:\Users\Reni Alkimim\source\repos\VirtualRemoteControl\tv_api\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\Reni Alkimim\source\repos\VirtualRemoteControl\tv_api\obj\Debug\net5.0\tv_api.csprojAssemblyReference.cache
+C:\Users\Reni Alkimim\source\repos\VirtualRemoteControl\tv_api\bin\Debug\net5.0\Rssdp.dll
 C:\Users\Reni Alkimim\source\repos\VirtualRemoteControl\tv_api\obj\Debug\net5.0\tv_api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Reni Alkimim\source\repos\VirtualRemoteControl\tv_api\obj\Debug\net5.0\tv_api.AssemblyInfoInputs.cache
 C:\Users\Reni Alkimim\source\repos\VirtualRemoteControl\tv_api\obj\Debug\net5.0\tv_api.AssemblyInfo.cs

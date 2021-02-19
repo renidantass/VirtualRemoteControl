@@ -43,6 +43,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "Rssdp": {
+              "target": "Package",
+              "version": "[4.0.4, )"
             }
           },
           "imports": [

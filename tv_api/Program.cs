@@ -8,9 +8,11 @@ namespace tv_api
     {
         static void Main(string[] args)
         {
-            LG tv = new LG("192.168.1.100", 3000);
+            Discovery discovery = new Discovery();
+            DeviceDiscoveredResponse foundDevice = discovery.FindWebOs();
+            LG tv = new LG(foundDevice);
 
-            using(RemoteControl<LG> remoteControl = new RemoteControl<LG>(tv))
+            using (RemoteControl<LG> remoteControl = new RemoteControl<LG>(tv))
             {
                 Command command = new Command("api/getServiceList");
                 dynamic response = remoteControl.SendCommand(command).Result;
