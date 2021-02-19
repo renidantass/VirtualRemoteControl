@@ -4,7 +4,7 @@ using System.Text;
 
 namespace tv_api.Entities
 {
-    class Command : ICommand
+    class Command
     {
         public ArraySegment<byte> Request { get; set; }
         public byte[] Response { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace tv_api.Entities
 {
-    abstract class TV : ITV
+    abstract class TV
     {
         protected string Ip { get; set; }
         protected int Port { get; set; }
