@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6FlaNWKBgQDGAa8p3o4QgluOcynM2JB5JbOqPD1mQDPAYoEmuiZG3r7+XlSDesT/gJEWVmudnUIeykh3obxoMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Reni Alkimim\\source\\repos\\VirtualRemoteControl\\tv_api\\tv_api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Reni Alkimim\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

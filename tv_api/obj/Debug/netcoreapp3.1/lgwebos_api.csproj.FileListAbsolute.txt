@@ -1,0 +1,14 @@
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\bin\Debug\netcoreapp3.1\lgwebos_api.exe
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\bin\Debug\netcoreapp3.1\lgwebos_api.deps.json
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\bin\Debug\netcoreapp3.1\lgwebos_api.runtimeconfig.json
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\bin\Debug\netcoreapp3.1\lgwebos_api.runtimeconfig.dev.json
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\bin\Debug\netcoreapp3.1\lgwebos_api.dll
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\bin\Debug\netcoreapp3.1\lgwebos_api.pdb
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\obj\Debug\netcoreapp3.1\lgwebos_api.csprojAssemblyReference.cache
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\obj\Debug\netcoreapp3.1\lgwebos_api.AssemblyInfoInputs.cache
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\obj\Debug\netcoreapp3.1\lgwebos_api.AssemblyInfo.cs
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\obj\Debug\netcoreapp3.1\lgwebos_api.csproj.CoreCompileInputs.cache
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\obj\Debug\netcoreapp3.1\lgwebos_api.dll
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\obj\Debug\netcoreapp3.1\lgwebos_api.pdb
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\obj\Debug\netcoreapp3.1\lgwebos_api.genruntimeconfig.cache
+C:\Users\Reni Alkimim\source\repos\lgwebos_api\lgwebos_api\bin\Debug\netcoreapp3.1\hello.json
