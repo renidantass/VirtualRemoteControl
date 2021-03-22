@@ -25,7 +25,7 @@ namespace tv_api
                 CommandLG command = new CommandLG("system.notifications/createToast", "request", new { message = $"{ip} conectado a essa tela!" });
                 //CommandLG command = new CommandLG("audio/getStatus");
 
-                dynamic response = remoteControl.SendCommand(command).Result;
+                dynamic response = await remoteControl.SendCommand(command);
 
                 Console.WriteLine(response);
             }
