@@ -12,14 +12,14 @@ namespace tv_api.Services
     class RemoteControl<T> : IDisposable where T : TV
     {
         private static ClientWebSocket _connection { get; set; }
-        public List<Command> Commands { get; set; }
+        public List<ICommand> Commands { get; set; }
 
         public RemoteControl(T api)
         {
             _connection = api.GetConnection();
         }
 
-        public async Task<dynamic> SendCommand(Command command)
+        public async Task<dynamic> SendCommand(ICommand command)
         {
             try
             {

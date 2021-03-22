@@ -22,7 +22,7 @@ namespace tv_api
                     ENDPOINTS IN
                         https://pastebin.com/raw/J5XMfbDq
                  */
-                Command command = new Command("system.notifications/createToast", "request", new { message = $"{ip} conectado a essa tela!" });
+                CommandLG command = new CommandLG("system.notifications/createToast", "request", new { message = $"{ip} conectado a essa tela!" });
                 //Command command = new Command("audio/getStatus");
 
                 dynamic response = remoteControl.SendCommand(command).Result;
