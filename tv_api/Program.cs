@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using tv_api.Entities;
 using tv_api.Services;
@@ -9,6 +11,8 @@ namespace tv_api
     {
         static async Task Main(string[] args)
         {
+            IPHostEntry iPHostEntry = Dns.GetHostEntry(Dns.GetHostName());
+            IPAddress ip = iPHostEntry.AddressList.FirstOrDefault(ip => ip.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork);
             DeviceDiscoveredResponse foundDevice = await Discovery.FindWebOs();
             LG tv = new LG(foundDevice);
 
@@ -18,8 +22,8 @@ namespace tv_api
                     ENDPOINTS IN
                         https://pastebin.com/raw/J5XMfbDq
                  */
-                //Command command = new Command("system.notifications/createToast", "request", new { message = "Funcionou!" });
-                Command command = new Command("request:audio/getStatus");
+                Command command = new Command("system.notifications/createToast", "request", new { message = $"{ip} conectado a essa tela!" });
+                //Command command = new Command("audio/getStatus");
 
                 dynamic response = remoteControl.SendCommand(command).Result;
 
